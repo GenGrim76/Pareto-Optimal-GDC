@@ -17,6 +17,7 @@
             <version>0.1.12</version>
         </dependency>
 
+             
         <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
         <dependency>
             <groupId>org.junit.jupiter</groupId>
@@ -25,14 +26,8 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- https://mvnrepository.com/artifact/com.beust/jcommander -->
-        <dependency>
-            <groupId>com.beust</groupId>
-            <artifactId>jcommander</artifactId>
-            <version>1.81</version>
-        </dependency>
 
-        <!-- https://mvnrepository.com/artifact/org.jfree/jfreechart -->
+             <!-- https://mvnrepository.com/artifact/org.jfree/jfreechart -->
         <dependency>
             <groupId>org.jfree</groupId>
             <artifactId>jfreechart</artifactId>
