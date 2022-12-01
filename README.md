@@ -27,7 +27,7 @@ The software is released as a single executable jar file, **TradeOff.jar**, that
 `java -jar TradeOff.jar [input_parameters]`
 
 where [input_parameters] as reported below:
-1) data_directory
+1) datasets_directory
 2) dataset_name 
 3) experiment_directory 
 4) DEBUG [0/1] (verbose mode)
