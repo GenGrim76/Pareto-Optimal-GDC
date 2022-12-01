@@ -5,9 +5,9 @@ Disk Storage of Compressed k-mer Dictionaries, with or without Random Access in 
 ## Environment
 TradeOff jar library runs over Linux/Ubuntu distros with java 11 pre-installed. It requires a *Java* compliant Virtual Machine (>= 1.8).  It integrates libraries written in C++ and python, which is why the following pre-installed environments are required: 
 
-- python3
--
--
+- python version >= 3.7
+- cmake version >= 3.25
+- gcc version >= 11.0
 
 
 ## Libraries Dependencies
