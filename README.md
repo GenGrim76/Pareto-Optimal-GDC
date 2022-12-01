@@ -2,6 +2,18 @@
 Disk Storage of Compressed k-mer Dictionaries, with or without Random Access in Main Memory.
 
 
+## Environment
+-
+-
+-
+
+
+## Libraries Dependencies
+
+- JavaFastPFOR library
+- junit Testing Library
+- jcommander Command Line Interface Library
+- jfreechart Library
 
 
 
