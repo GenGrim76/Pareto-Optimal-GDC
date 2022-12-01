@@ -32,7 +32,7 @@ where [input_parameters] as reported below:
 1) datasets_directory
 2) dataset_name 
 3) experiment_directory 
-4) DEBUG [0/1] (verbose mode)
+4) debug [0/1] (verbose mode)
 
 
 ## Datasets
