@@ -12,8 +12,8 @@ Disk Storage of Compressed k-mer Dictionaries, with or without Random Access in 
 
 - JavaFastPFOR library: A simple integer compression library in Java, released under the Apache License Version 2.0 http://www.apache.org/licenses/.
 - junit Testing Library: simple framework to write repeatable tests on the JVM, released under the Eclipse Public License 1.0 https://www.eclipse.org/legal/epl-v10.html. 
-- jcommander Command Line Interface Library: Command line parsing framework for Java.
-- jFreeChart Library: Java chart library that makes it easy for developers to display professional quality charts in their application.
+- jcommander Command Line Interface Library: Command line parsing framework for Java, released under the Apache 2.0 license http://www.apache.org/licenses/.
+- jFreeChart Library: Java chart 100% ope-source library that makes it easy for developers to display professional quality charts in their application.
 
   #### (PLEASE NOTE: see the pom.xml file for the different library repositories)
 
