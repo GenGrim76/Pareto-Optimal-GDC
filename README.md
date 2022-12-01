@@ -1,9 +1,10 @@
-# Compressed_kmer_Dictionaries
+# TradeOff: Compressed k-mer Dictionaries library
 Disk Storage of Compressed k-mer Dictionaries, with or without Random Access in Main Memory.
 
 
 ## Environment
-TradeOff jar library runs over Linux/Ubuntu distros with java 11 pre-installed. It requires a *Java* compliant Virtual Machine (>= 1.8).  It integrates libraries written in C++ and python, which is why the following pre-installed environments are required: 
+
+**TradeOff.jar** library runs over Linux/Ubuntu distros with java 11 pre-installed. It requires a *Java* compliant Virtual Machine (>= 1.8).  It integrates libraries written in C++ and python, which is why the following pre-installed environments are required: 
 
 - python version >= 3.7
 - cmake version >= 3.25
@@ -22,6 +23,7 @@ TradeOff jar library runs over Linux/Ubuntu distros with java 11 pre-installed. 
 
 
 ## Usage
+
 The software is released as a single executable jar file, **TradeOff.jar**, that can be used to run experiments from the command line, using the following syntax:
 
 `java -jar TradeOff.jar [input_parameters]`
