@@ -15,7 +15,7 @@ Disk Storage of Compressed k-mer Dictionaries, with or without Random Access in 
 - jcommander Command Line Interface Library: Command line parsing framework for Java.
 - jFreeChart Library: Java chart library that makes it easy for developers to display professional quality charts in their application.
 
-  ####(PLEASE NOTE: see the pom.xml file for the different library repositories)
+  #### (PLEASE NOTE: see the pom.xml file for the different library repositories)
 
 
 
