@@ -1,4 +1,4 @@
-# TradeOff: a library for Disk Storage of Compressed k-mers Dictionaries, with or without Random Access in Main Memory.
+# Pareto-Optimal-GDC: Pareto Optimal Genomic Dictionaries Compression
 
 ## Environment
 
