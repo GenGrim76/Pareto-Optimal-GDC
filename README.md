@@ -9,7 +9,7 @@ The **Pareto-Optimal-GDC** java library runs over Linux/Ubuntu distros with java
 - **gcc** version >= 11.0
 
 
-## Libraries Dependencies
+## Library Dependencies
 
 - **JavaFastPFOR** [1] library: A simple integer compression library in Java, released under the Apache License Version 2.0 http://www.apache.org/licenses/.
 
@@ -18,6 +18,17 @@ The **Pareto-Optimal-GDC** java library runs over Linux/Ubuntu distros with java
 - **jFreeChart** library: Java chart 100% open-source library that makes it easy for developers to display professional quality charts in their application, released under the terms of the GNU Lesser General Public Licence (LGPL) https://www.gnu.org/licenses/lgpl-3.0.html.
 
   #### (PLEASE NOTE: see the pom.xml file for the relative repositories)
+
+
+## Additional Software used in this library
+
+- aaa
+- bbb
+- ccc
+- ddd
+- eee
+
+
 
 
 ## Usage
