@@ -52,4 +52,5 @@ Execution of the previous command returns a set of files in '.txt' format. For t
 
 ## References
 [1] - Lemire
+
 [2] - paper
