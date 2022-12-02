@@ -22,7 +22,10 @@
 
 ## Usage
 
-The software is released as a single executable jar file, **TradeOff.jar**, that can be used to run experiments from the command line, using the following syntax:
+The software is released as an executable **TradeOff.jar** java library, together with a whole set of integrated tools for the compression/decompression of `k`-mers, genomic sequences and integers, both generic and specialized, as further detailed in [2]. 
+
+The TradeOff java library can be used to run experiments from the command line, using the following syntax:
+
 
 `java -jar TradeOff.jar [input_parameters]`
 
@@ -53,3 +56,4 @@ Execution of the previous command returns a set of files in '.txt' format. For t
 ## References
 [1]: Daniel Lemire and Leonid Boytsov. "Decoding billions of integers per second through vectorization." Software: Practice and Experience 45.1 (2015): 1-29.
 
+[2]: paper reference
