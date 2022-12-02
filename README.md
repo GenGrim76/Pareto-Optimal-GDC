@@ -17,16 +17,23 @@ The **Pareto-Optimal-GDC** java library runs over Linux/Ubuntu distros with java
 
 - **jFreeChart** library: Java chart 100% open-source library that makes it easy for developers to display professional quality charts in their application, released under the terms of the GNU Lesser General Public Licence (LGPL) https://www.gnu.org/licenses/lgpl-3.0.html.
 
-  #### (PLEASE NOTE: see the pom.xml file for the relative repositories)
+  ### (PLEASE NOTE: see the pom.xml file for the relative repositories)
 
 
 ## Additional Software used in this library
 
-- aaa
-- bbb
-- ccc
-- ddd
-- eee
+- **DSK**
+- **KMC3**
+- **ESS**
+- **FM-index** (as implemented in the **SDSL-Lite** library)
+- **BCSF** (**locom** library)
+- **bzip2**
+- **lz4**
+- **Zstandard**
+- **MFCompress**
+- **SPRING**
+- **BIC** (as implemented in the **JavaFastPFOR** library)
+- **Opt-PFOR** (as implemented in the **JavaFastPFOR** library)
 
 
 
