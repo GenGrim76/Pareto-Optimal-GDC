@@ -39,7 +39,7 @@ The **Pareto-Optimal-GDC** java library runs over Linux/Ubuntu distros with java
 
 ## Usage
 
-The software is released as an executable **Pareto-Optimal-GDC.jar** java library, together with a whole set of integrated tools for the compression/decompression of k-mers, genomic and integers sequences, both generic and specialized, as further detailed in [2]. 
+The software is released as an executable **Pareto-Optimal-GDC.jar** java library, together with a whole set of integrated tools for the compression/decompression of k-mers, genomic and integers sequences, both generic and specialized, as further detailed in [XXXXXXXXXXXXXXXXX]. 
 
 The Pareto-Optimal-GDC java library can be used to run experiments from the command line, using the following syntax:
 
