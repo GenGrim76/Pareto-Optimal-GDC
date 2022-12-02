@@ -22,7 +22,7 @@
 
 ## Usage
 
-The software is released as an executable **TradeOff.jar** java library, together with a whole set of integrated tools for the compression/decompression of `k`-mers, genomic sequences and integers, both generic and specialized, as further detailed in [2]. 
+The software is released as an executable **TradeOff.jar** java library, together with a whole set of integrated tools for the compression/decompression of k-mers, genomic sequences and integers, both generic and specialized, as further detailed in [2]. 
 
 The TradeOff java library can be used to run experiments from the command line, using the following syntax:
 
@@ -41,7 +41,7 @@ For a quick start, assuming both JVM, python and cmake are properly installed on
 
 `java -jar TradeOff.jar ../data StaphAU ../experiments 1`
 
-Execution of the previous command returns a set of files in '.txt' format. For the **Base Case Scenario**, and for each 'k'-value used in this study, a special folder is created in which there are two files storing the performance in terms of compression and post-processing time obtained by the various compressors (standard and specialized) for the 'k'-mers and relative frequencies.
+Execution of the previous command returns a set of files in '.txt' format. For the **Base Case Scenario**, and for each k-value used in this study, a special folder is created in which there are two files storing the performance in terms of compression and post-processing time obtained by the various compressors (standard and specialized) for the k-mers and relative frequencies.
 
 
 
