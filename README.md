@@ -23,10 +23,10 @@ The **Pareto-Optimal-GDC** java library runs over Linux/Ubuntu distros with java
 ## Additional Software used in this library
 
 - **DSK**: k-mer counter for reads or genomes. [https://gatb.inria.fr/software/dsk/] [2]
-- **KMC3**
-- **ESS**
+- **KMC3** disk-based program for counting k-mers from (possibly gzipped) FASTQ/FASTA files. [https://github.com/refresh-bio/KMC] [3]
+- **ESSCompress** A tool to compress a set of k-mers represented in FASTA/FASTQ/KFF file(s). [https://github.com/medvedevgroup/ESSCompress] [4]
 - **FM-index** (as implemented in the **SDSL-Lite** library)
-- **BCSF** (**locom** library)
+- **BCSF** (implemented in the **locom** library)
 - **bzip2**
 - **lz4**
 - **Zstandard** (**MFC**, for short)
@@ -76,6 +76,8 @@ Execution of the above command returns a series of files in '.txt' format. For t
 
 [2]: Guillaume Rizk, Dominique Lavenier and Rayan Chikhi. DSK: k-mer counting with very low memory usage, Bioinformatics, 29(5):652-653 (2013). doi:10.1093/bioinformatics/btt020 .
 
-[3]:  
+[3]:  Marek Kokot, Maciej Długosz, Sebastian Deorowicz, KMC 3: counting and manipulating k-mer statistics, Bioinformatics, Volume 33, Issue 17, 01 September 2017, Pages 2759–2761, https://doi.org/10.1093/bioinformatics/btx304 .
 
-[4]: 
+[4]: Amatur Rahman, Rayan Chikhi and Paul Medvedev, Disk compression of k-mer sets, WABI 2020 .
+
+[XXXXXXXXXXXXXXXXX]:
