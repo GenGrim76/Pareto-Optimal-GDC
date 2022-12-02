@@ -36,7 +36,7 @@ where [input_parameters] as reported below:
 ## Quickstart
 For a quick start, assuming both JVM, python and cmake are properly installed on your system, unzip the TradeOff 1.0 release, move on the directory `/bin`, and run the following command:
 
-`java -jar TradeOff.jar ./data StaphAU ./experiments 1`
+`java -jar TradeOff.jar ../data StaphAU ../experiments 1`
 
 Execution of the previous command returns a set of files in '.txt' format. For the **Base Case Scenario**, and for each 'k'-value used in this study, a special folder is created in which there are two files storing the performance in terms of compression and post-processing time obtained by the various compressors (standard and specialized) for the 'k'-mers and relative frequencies.
 
