@@ -13,11 +13,11 @@
 
 - JavaFastPFOR library: A simple integer compression library in Java, released under the Apache License Version 2.0 http://www.apache.org/licenses/.
 
-- junit Testing Library: simple framework to write repeatable tests on the JVM, released under the Eclipse Public License 1.0 (EPL) https://www.eclipse.org/legal/epl-v10.html. 
+- junit Testing library: simple framework to write repeatable tests on the JVM, released under the Eclipse Public License 1.0 (EPL) https://www.eclipse.org/legal/epl-v10.html. 
 
-- jFreeChart Library: Java chart 100% open-source library that makes it easy for developers to display professional quality charts in their application, released under the terms of the GNU Lesser General Public Licence (LGPL) https://www.gnu.org/licenses/lgpl-3.0.html.
+- jFreeChart library: Java chart 100% open-source library that makes it easy for developers to display professional quality charts in their application, released under the terms of the GNU Lesser General Public Licence (LGPL) https://www.gnu.org/licenses/lgpl-3.0.html.
 
-  #### (PLEASE NOTE: see the pom.xml file for the different library repositories)
+  #### (PLEASE NOTE: see the pom.xml file for the relative repositories)
 
 
 ## Usage
