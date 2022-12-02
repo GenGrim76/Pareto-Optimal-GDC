@@ -22,7 +22,7 @@ The **Pareto-Optimal-GDC** java library runs over Linux/Ubuntu distros with java
 
 ## Additional Software used in this library
 
-- **DSK**
+- **DSK**: k-mer counter for reads or genomes. [https://gatb.inria.fr/software/dsk/]
 - **KMC3**
 - **ESS**
 - **FM-index** (as implemented in the **SDSL-Lite** library)
