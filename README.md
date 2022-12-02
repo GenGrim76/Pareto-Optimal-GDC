@@ -11,7 +11,7 @@
 
 ## Libraries Dependencies
 
-- **JavaFastPFOR** `[1]` library: A simple integer compression library in Java, released under the Apache License Version 2.0 http://www.apache.org/licenses/.
+- [**JavaFastPFOR**] [1] library: A simple integer compression library in Java, released under the Apache License Version 2.0 http://www.apache.org/licenses/.
 
 - **jUnit** Testing library: simple framework to write repeatable tests on the JVM, released under the Eclipse Public License 1.0 (EPL) https://www.eclipse.org/legal/epl-v10.html. 
 
@@ -51,5 +51,5 @@ Execution of the previous command returns a set of files in '.txt' format. For t
 
 
 ## References
-`[1]` - Daniel Lemire and Leonid Boytsov. "Decoding billions of integers per second through vectorization." Software: Practice and Experience 45.1 (2015): 1-29.
+[1]: - Daniel Lemire and Leonid Boytsov. "Decoding billions of integers per second through vectorization." Software: Practice and Experience 45.1 (2015): 1-29.
 
