@@ -5,17 +5,17 @@
 **TradeOff.jar** library runs over Linux/Ubuntu distros with java 11 pre-installed. It released under the terms of the GNU General Public License v3.0 (see *License.md*). It requires a *Java* compliant Virtual Machine (version >= 1.8).  It integrates libraries written in C++ and python, which is why the following pre-installed environments are required: 
 
 - **python** version >= 3.7
-- cmake version >= 3.25
-- gcc version >= 11.0
+- **cmake** version >= 3.25
+- **gcc** version >= 11.0
 
 
 ## Libraries Dependencies
 
-- JavaFastPFOR library: A simple integer compression library in Java, released under the Apache License Version 2.0 http://www.apache.org/licenses/.
+- **JavaFastPFOR** library: A simple integer compression library in Java, released under the Apache License Version 2.0 http://www.apache.org/licenses/.
 
-- junit Testing library: simple framework to write repeatable tests on the JVM, released under the Eclipse Public License 1.0 (EPL) https://www.eclipse.org/legal/epl-v10.html. 
+- **junit** Testing library: simple framework to write repeatable tests on the JVM, released under the Eclipse Public License 1.0 (EPL) https://www.eclipse.org/legal/epl-v10.html. 
 
-- jFreeChart library: Java chart 100% open-source library that makes it easy for developers to display professional quality charts in their application, released under the terms of the GNU Lesser General Public Licence (LGPL) https://www.gnu.org/licenses/lgpl-3.0.html.
+- ***jFreeChart** library: Java chart 100% open-source library that makes it easy for developers to display professional quality charts in their application, released under the terms of the GNU Lesser General Public Licence (LGPL) https://www.gnu.org/licenses/lgpl-3.0.html.
 
   #### (PLEASE NOTE: see the pom.xml file for the relative repositories)
 
@@ -38,7 +38,7 @@ For a quick start, assuming both JVM, python and cmake are properly installed on
 
 `java -jar TradeOff.jar ./data StaphAU ./experiments 1`
 
-Execution of the previous command returns a set of files in '.txt' format. For the **Base Case Scenario**, and for each 'k'-value used in this study, a special folder is created in which there are two files storing the performance in terms of compression and post-processing time obtained by the various compressors (standard and specialized) for the 'k'-mers and relative frequencies. With particular reference to the **CD-NRAM Scenario** (**DP0** Case), a histogram of the frequencies found in the 'k'-mers dictionary output from **DSK** is produced, as shown below: 
+Execution of the previous command returns a set of files in '.txt' format. For the **Base Case Scenario**, and for each 'k'-value used in this study, a special folder is created in which there are two files storing the performance in terms of compression and post-processing time obtained by the various compressors (standard and specialized) for the 'k'-mers and relative frequencies. With particular reference to the **CD-NRAM Scenario** (**DP0** Case), a histogram of the frequencies found in the 'k'-mers dictionary output from **DSK** 'k'-mer counter is produced, as shown below: 
 
 
 
