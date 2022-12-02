@@ -2,7 +2,7 @@
 
 ## Environment
 
-**TradeOff.jar** library runs over Linux/Ubuntu distros with java 11 pre-installed. It released under the terms of the GNU General Public License v3.0 (see *License.md*). It requires a *Java* compliant Virtual Machine (version >= 1.8).  It integrates libraries written in C++ and python, which is why the following pre-installed environments are required: 
+**Pareto-Optimal-GDC.jar** library runs over Linux/Ubuntu distros with java 11 pre-installed. It released under the terms of the GNU General Public License v3.0 (see *License.md*). It requires a *Java* compliant Virtual Machine (version >= 1.8).  It integrates libraries written in C++ and python, which is why the following pre-installed environments are required: 
 
 - **python** version >= 3.7
 - **cmake** version >= 3.25
@@ -22,12 +22,12 @@
 
 ## Usage
 
-The software is released as an executable **TradeOff.jar** java library, together with a whole set of integrated tools for the compression/decompression of k-mers, genomic sequences and integers, both generic and specialized, as further detailed in [2]. 
+The software is released as an executable **Pareto-Optimal-GDC.jar** java library, together with a whole set of integrated tools for the compression/decompression of k-mers, genomic sequences and integers, both generic and specialized, as further detailed in [2]. 
 
-The TradeOff java library can be used to run experiments from the command line, using the following syntax:
+The Pareto-Optimal-GDC java library can be used to run experiments from the command line, using the following syntax:
 
 
-`java -jar TradeOff.jar [input_parameters]`
+`java -jar Pareto-Optimal-GDC.jar [input_parameters]`
 
 where [input_parameters] as reported below:
 1) datasets_directory
@@ -37,9 +37,9 @@ where [input_parameters] as reported below:
 
 
 ## Quickstart
-For a quick start, assuming both JVM, python and cmake are properly installed on your system, unzip the TradeOff 1.0 release, move on the directory `/bin`, and run the following command:
+For a quick start, assuming both JVM, python and cmake are properly installed on your system, unzip the Pareto-Optimal-GDC 1.0 release, move on the directory `/bin`, and run the following command:
 
-`java -jar TradeOff.jar ../data StaphAU ../experiments 1`
+`java -jar Pareto-Optimal-GDC.jar ../data StaphAU ../experiments 1`
 
 Execution of the previous command returns a set of files in '.txt' format. For the **Base Case Scenario**, and for each k-value used in this study, a special folder is created in which there are two files storing the performance in terms of compression and post-processing time obtained by the various compressors (standard and specialized) for the k-mers and relative frequencies.
 
@@ -47,7 +47,7 @@ Execution of the previous command returns a set of files in '.txt' format. For t
 
 ## Datasets
 
-**TradeOff.jar** library has been extensively tested by using the following genomic datasets:
+**Pareto-Optimal-GDC.jar** library has been extensively tested by using the following genomic datasets:
 - [Staphylococcus Aureus (3 MB)](https://www.ncbi.nlm.nih.gov/nuccore/NC_010079.1?report=fasta)
 - [Human Chromosome 14 (109 MB)](https://www.ncbi.nlm.nih.gov/assembly/GCF_000001405.14/)
 - [Assembled Plants (4.8 GB)](http://afproject.org/media/genome/std/assembled/plants/dataset/assembled-plants.zip) (concatenation of the 14 plant genomes via **cat** linux command)
