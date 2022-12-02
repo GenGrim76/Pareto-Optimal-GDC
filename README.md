@@ -52,7 +52,8 @@ For a quick start, assuming both JVM, python and cmake are properly installed on
 
 `java -jar Pareto-Optimal-GDC.jar ../data StaphAU ../experiments 1`
 
-Execution of the previous command returns a set of files in '.txt' format. For the **Base Case Scenario**, and for each k-value used in this study, a special folder is created in which there are two files storing the performance in terms of compression and post-processing time obtained by the various compressors (standard and specialized) for the k-mers and relative frequencies.
+
+Execution of the above command returns a series of files in '.txt' format. For the **Base Case Scenario**, a special folder is created in which there are two folders: CD-NRAM and SD-RAM. In each of these there are two text files that respectively store the performance in terms of compression and post-processing time obtained by the various compressors (standard and specialised) on the k-mer dictionaries and on their relative frequencies, respectively for the "Compressed on Disk - No Random Access in Main Memory" and "Succinct on Disk - Random Access in Main Memory" Scenarios. For each value of k used in this study, a folder is created in which the results in terms of compression and post-processing time are similarly reported for each of the **DP0**, **DP1**, **DP2** and **DP3** cases.
 
 
 
