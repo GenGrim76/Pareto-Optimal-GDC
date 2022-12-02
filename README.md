@@ -51,6 +51,5 @@ Execution of the previous command returns a set of files in '.txt' format. For t
 
 
 ## References
-[1] - Lemire
+[1] - Lemire, Daniel, and Leonid Boytsov. "Decoding billions of integers per second through vectorization." Software: Practice and Experience 45.1 (2015): 1-29.
 
-[2] - paper
