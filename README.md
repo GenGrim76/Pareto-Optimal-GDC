@@ -22,7 +22,7 @@ The **Pareto-Optimal-GDC** java library runs over Linux/Ubuntu distros with java
 
 ## Additional Software used in this library
 
-- **DSK**: k-mer counter for reads or genomes. [https://gatb.inria.fr/software/dsk/]
+- **DSK**: k-mer counter for reads or genomes. [https://gatb.inria.fr/software/dsk/] [2]
 - **KMC3**
 - **ESS**
 - **FM-index** (as implemented in the **SDSL-Lite** library)
@@ -74,4 +74,8 @@ Execution of the above command returns a series of files in '.txt' format. For t
 ## References
 [1]: Daniel Lemire and Leonid Boytsov. "Decoding billions of integers per second through vectorization." Software: Practice and Experience 45.1 (2015): 1-29.
 
-[2]: paper reference
+[2]: Guillaume Rizk, Dominique Lavenier and Rayan Chikhi. DSK: k-mer counting with very low memory usage, Bioinformatics, 29(5):652-653 (2013). doi:10.1093/bioinformatics/btt020 .
+
+[3]:  
+
+[4]: 
