@@ -34,8 +34,6 @@ The **Pareto-Optimal-GDC** java library runs over Linux/Ubuntu distros with java
 - **SPRING**
 - **BIC** (as implemented in the **JavaFastPFOR** library)
 - **Opt-PFOR** (as implemented in the **JavaFastPFOR** library)
--
-
 
 
 
