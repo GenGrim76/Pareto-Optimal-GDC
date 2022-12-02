@@ -11,7 +11,7 @@
 
 ## Libraries Dependencies
 
-- **JavaFastPFOR** library: A simple integer compression library in Java, released under the Apache License Version 2.0 http://www.apache.org/licenses/.
+- **JavaFastPFOR** [1] library: A simple integer compression library in Java, released under the Apache License Version 2.0 http://www.apache.org/licenses/.
 
 - **jUnit** Testing library: simple framework to write repeatable tests on the JVM, released under the Eclipse Public License 1.0 (EPL) https://www.eclipse.org/legal/epl-v10.html. 
 
