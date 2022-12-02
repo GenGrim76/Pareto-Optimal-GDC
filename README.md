@@ -24,7 +24,7 @@
 
 The software is released as a single executable jar file, **TradeOff.jar**, that can be used to run experiments from the command line, using the following syntax:
 
-#java -jar TradeOff.jar [input_parameters]
+'java -jar TradeOff.jar [input_parameters]'
 
 where [input_parameters] as reported below:
 1) datasets_directory
