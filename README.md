@@ -29,8 +29,8 @@ The **Pareto-Optimal-GDC** java library runs over Linux/Ubuntu distros with java
 - **BCSF** (**locom** library)
 - **bzip2**
 - **lz4**
-- **Zstandard**
-- **MFCompress**
+- **Zstandard** (**MFC**, for short)
+- **MFCompress** (**zstd**, for short)
 - **SPRING**
 - **BIC** (as implemented in the **JavaFastPFOR** library)
 - **Opt-PFOR** (as implemented in the **JavaFastPFOR** library)
