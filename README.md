@@ -34,7 +34,7 @@ where [input_parameters] as reported below:
 
 
 ## Quickstart
-For a quick start, assuming both JVM, python and cmake are properly installed, unzip the TradeOff 1.0 release, move on the directory '/bin', and run the following command:
+For a quick start, assuming both JVM, python and cmake are properly installed on your system, unzip the TradeOff 1.0 release, move on the directory '/bin', and run the following command:
 
 'java -jar TradeOff.jar ./data StaphAU ./experiments 1'
 
