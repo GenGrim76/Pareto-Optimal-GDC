@@ -38,7 +38,7 @@ For a quick start, assuming both JVM, python and cmake are properly installed on
 
 'java -jar TradeOff.jar ./data StaphAU ./experiments 1'
 
-Execution of the previous command returns a set of files in '.txt' format. For the *Base Case Scenario*, and for each 'k'-value used in this study, a special folder is created in which there are two files storing the performance in terms of compression and post-processing time obtained by the various compressors (standard and specialized) for the 'k'-mers and relative frequencies. With particular reference to the *CD-NRAM Scenario* (*DP0* Case), a histogram of the frequencies found in the k-mers dictionary output from DSK is produced, as shown below: 
+Execution of the previous command returns a set of files in '.txt' format. For the **Base Case Scenario**, and for each 'k'-value used in this study, a special folder is created in which there are two files storing the performance in terms of compression and post-processing time obtained by the various compressors (standard and specialized) for the 'k'-mers and relative frequencies. With particular reference to the **CD-NRAM Scenario** (**DP0** Case), a histogram of the frequencies found in the 'k'-mers dictionary output from **DSK** is produced, as shown below: 
 
 
 
