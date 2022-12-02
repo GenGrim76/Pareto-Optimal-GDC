@@ -1,4 +1,4 @@
-# TradeOff: a library for Disk Storage of Compressed k-mer Dictionaries, with or without Random Access in Main Memory.
+# TradeOff: a library for Disk Storage of Compressed k-mers Dictionaries, with or without Random Access in Main Memory.
 
 ## Environment
 
