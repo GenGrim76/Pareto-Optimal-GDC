@@ -33,6 +33,12 @@ where [input_parameters] as reported below:
 4) debug [0/1] (verbose mode)
 
 
+## Quickstart
+For a quick start, assuming both JVM, python and cmake are properly installed, unzip the TradeOff 1.0 release, move on the directory '/bin', and run the following command:
+
+'java -jar TradeOff.jar ./data StaphAU ./experiments 1'
+
+
 ## Datasets
 
 **TradeOff.jar** library has been extensively tested by using the following genomic datasets:
