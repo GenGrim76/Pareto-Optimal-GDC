@@ -2,7 +2,7 @@
 
 ## Environment
 
-The **Pareto-Optimal-GDC** is a benchmark java library that can be readily used to explore the Pareto Optimal solutions available for a given Dictionary is also provided. It runs over Linux/Ubuntu distros with java 11 pre-installed. It released under the terms of the GNU General Public License v3.0 (see [`LICENSE.md`](https://github.com/GenGrim76/Pareto-Optimal-GDC/blob/main/LICENSE) ). It requires a *Java* compliant Virtual Machine (1.8+).  It integrates libraries written in C++ and python, which is why the following pre-installed environments are required: 
+The **Pareto-Optimal-GDC** is a benchmark java library that can be readily used to explore the Pareto Optimal solutions available for a given Dictionary is also provided. It runs over Linux/Ubuntu distros with java 11 pre-installed. It released under the terms of the GNU General Public License v3.0 (see [`LICENSE.md`](https://github.com/GenGrim76/Pareto-Optimal-GDC/blob/main/LICENSE.md) ). It requires a *Java* compliant Virtual Machine (1.8+).  It integrates libraries written in C++ and python, which is why the following pre-installed environments are required: 
 
 - **python** (3.7+)
 - **CMake** (3.25+)
@@ -26,7 +26,7 @@ The **Pareto-Optimal-GDC** is a benchmark java library that can be readily used 
 - **KMC3** disk-based program for counting k-mers from (possibly gzipped) FASTQ/FASTA files. [https://github.com/refresh-bio/KMC] [3]
 - **ESSCompress** A tool to compress a set of k-mers represented in FASTA/FASTQ/KFF file(s). [https://github.com/medvedevgroup/ESSCompress] [4]
 - **FM-index** [5] (as implemented in the **SDSL-Lite** library [6])
-- **BCSF** (implemented in the **locom** library) [7]
+- **BCSF** Compressing k-mer count tables through minimizers and Compressed Static Functions (implemented in the **locom** library) [7]
 - **bzip2** [8]
 - **lz4** [9]
 - **Zstandard** (**zstd**, for short) [10]
