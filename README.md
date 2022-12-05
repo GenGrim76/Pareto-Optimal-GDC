@@ -89,15 +89,15 @@ Execution of the above command returns a series of files in '.txt' format. For t
 
 [7]: Yoshihiro Shibuya, Djamal Belazzougui and Gregory Kucherov. locom:Compressing k-mer count tables through minimizers and compressed static functions, 2021. https://github.com/yhhshb/locom .
 
-[8]: Julian Seward. bzip2, 1996. http://www.bzip.org/) .
+[8]: Julian Seward. bzip2, 1996. http://www.bzip.org/ .
 
-[9]: Yann Collet. LZ4 - Extremely Fast Compression algorithm, 2011. https://github.com/lz4/lz4) .
+[9]: Yann Collet. LZ4 - Extremely Fast Compression algorithm, 2011. https://github.com/lz4/lz4 .
 
-[10]:
+[10]: Yann Collet. Zstandard - Fast real-time compression algorithm, 2015. https://github.com/facebook/zstd .
 
-[11]:
+[11]: Armando J. Pinho and Diogo Pratas. MFCompress: a compression tool for FASTA and multi-FASTA data. Bioinformatics, 30(1):117–118, 2013. https://bioinformatics.ua.pt/software/mfcompress/ .
 
-[12]:
+[12]: Shubham Chandak, Kedar Tatwawadi, Idoia Ochoa, Mikel Hernaez, and Tsachy Weissman. SPRING: a next-generation compressor for FASTQ data. Bioinformatics, 35(15):2674–2676, Dec 2018. https://github.com/shubhamchandak94/Spring .
 
 [XXXXXXXXXXXXXXXXX]:
 
