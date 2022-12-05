@@ -32,14 +32,14 @@ The **Pareto-Optimal-GDC** java library runs over Linux/Ubuntu distros with java
 - **Zstandard** (**zstd**, for short) [10]
 - **MFCompress** (**MFC**, for short) [11]
 - **SPRING** [12]
-- **BIC** (as implemented in the **JavaFastPFOR** library)
-- **Opt-PFOR** (as implemented in the **JavaFastPFOR** library)
+- **BIC** [13] (as implemented in the **JavaFastPFOR** library)
+- **Opt-PFOR** [14] (as implemented in the **JavaFastPFOR** library)
 
 
 
 ## Usage
 
-The software is released as an executable **Pareto-Optimal-GDC.jar** java library, together with a whole set of integrated tools for the compression/decompression of k-mers, genomic and integers sequences, both generic and specialized, as further detailed in [XXXXXXXXXXXXXXXXX]. 
+The software is released as an executable **Pareto-Optimal-GDC.jar** java library, together with a whole set of integrated tools for the compression/decompression of k-mers, genomic and integers sequences, both generic and specialized, as further detailed in [**XXXXXXXXXXXXXXXXX**]. 
 
 The Pareto-Optimal-GDC java library can be used to run experiments from the command line, using the following syntax:
 
@@ -99,5 +99,8 @@ Execution of the above command returns a series of files in '.txt' format. For t
 
 [12]: Shubham Chandak, Kedar Tatwawadi, Idoia Ochoa, Mikel Hernaez, and Tsachy Weissman. SPRING: a next-generation compressor for FASTQ data. Bioinformatics, 35(15):2674–2676, Dec 2018. https://github.com/shubhamchandak94/Spring .
 
-[XXXXXXXXXXXXXXXXX]:
+[13]: Alistair Moffat and Lang Stuiver. Binary interpolative coding for effective index compression. Information Retrieval, 3(1):25–47, Jul 2000. 
 
+[14]: Hao Yan, Shuai Ding, and Torsten Suel. Inverted index compression and query processing with optimized document ordering. In Proceedings of the 18th International Conference on World Wide Web, WWW ’09, page 401–410, New York, NY, USA, 2009. Association for Computing Machinery.
+
+[XXXXXXXXXXXXXXXXX]:
