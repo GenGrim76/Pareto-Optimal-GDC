@@ -55,7 +55,7 @@ where [input_parameters] as reported below:
 
 ## Quickstart
 
-**PLEASE NOTE:** Depending on the size of the input genomic dataset, in addition to consuming a lot of time, use of the library requires a lot of disk space for the creation of temporary files, even on the order of several TB, as in the case of Assembled Plants Genome.
+**PLEASE NOTE:** Depending on the size of the input genomic dataset, in addition to consuming a lot of time, use of the library requires a lot of disk space for the creation of temporary files, even on the order of several TB, as in the case of *Assembled Plants* Genome.
 
 For a quick start, assuming both **JVM**, **python** and **CMake** are properly installed on your system, unzip the Pareto-Optimal-GDC 1.0 release, move on the directory `/bin`, and run the following command:
 
@@ -69,9 +69,9 @@ Execution of the above command returns a series of files in '.txt' format. For t
 ## Datasets
 
 **Pareto-Optimal-GDC.jar** library has been extensively tested by using the following genomic datasets:
-- [Staphylococcus Aureus (3 MB)](https://www.ncbi.nlm.nih.gov/nuccore/NC_010079.1?report=fasta)
-- [Human Chromosome 14 (109 MB)](https://www.ncbi.nlm.nih.gov/assembly/GCF_000001405.14/)
-- [Assembled Plants (4.8 GB)](http://afproject.org/media/genome/std/assembled/plants/dataset/assembled-plants.zip) (concatenation of the 14 plant genomes via **cat** linux command)
+- [*Staphylococcus Aureus* (3 MB)](https://www.ncbi.nlm.nih.gov/nuccore/NC_010079.1?report=fasta)
+- [*Human Chromosome 14* (109 MB)](https://www.ncbi.nlm.nih.gov/assembly/GCF_000001405.14/)
+- [*Assembled Plants* (4.8 GB)](http://afproject.org/media/genome/std/assembled/plants/dataset/assembled-plants.zip) (concatenation of the 14 plant genomes via **cat** linux command)
 
 
 ## References
