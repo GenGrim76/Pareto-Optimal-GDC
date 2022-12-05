@@ -29,8 +29,8 @@ The **Pareto-Optimal-GDC** java library runs over Linux/Ubuntu distros with java
 - **BCSF** (implemented in the **locom** library) [7]
 - **bzip2** [8]
 - **lz4** [9]
-- **Zstandard** (**MFC**, for short) [10]
-- **MFCompress** (**zstd**, for short) [11]
+- **Zstandard** (**zstd**, for short) [10]
+- **MFCompress** (**MFC**, for short) [11]
 - **SPRING** [12]
 - **BIC** (as implemented in the **JavaFastPFOR** library)
 - **Opt-PFOR** (as implemented in the **JavaFastPFOR** library)
@@ -83,15 +83,15 @@ Execution of the above command returns a series of files in '.txt' format. For t
 
 [4]: Amatur Rahman, Rayan Chikhi and Paul Medvedev, Disk compression of k-mer sets, WABI 2020 .
 
-[5]: Ferragina, Paolo, and Giovanni Manzini. "Indexing compressed text." Journal of the ACM (JACM) 52.4 (2005): 552-581.
+[5]: Paolo Ferragina and Giovanni Manzini. "Indexing compressed text." Journal of the ACM (JACM) 52.4 (2005): 552-581.
 
-[6]: Simon Gog, Timo Beller, Alistair Moffat, and Matthias Petri. SDSL-lite: Succinct Data Structure Library,2016. https://github.com/simongog/sdsl-lite) .
+[6]: Simon Gog, Timo Beller, Alistair Moffat, and Matthias Petri. SDSL-lite: Succinct Data Structure Library, 2016. https://github.com/simongog/sdsl-lite) .
 
-[7]:
+[7]: Yoshihiro Shibuya, Djamal Belazzougui and Gregory Kucherov. locom:Compressing k-mer count tables through minimizers and compressed static functions, 2021. https://github.com/yhhshb/locom .
 
-[8]:
+[8]: Julian Seward. bzip2, 1996. http://www.bzip.org/) .
 
-[9]:
+[9]: Yann Collet. LZ4 - Extremely Fast Compression algorithm, 2011. https://github.com/lz4/lz4) .
 
 [10]:
 
