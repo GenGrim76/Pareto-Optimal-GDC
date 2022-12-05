@@ -9,7 +9,7 @@ uncompressed_dataset_D, bzip2(D), lz4(D), zstd(D), MFC(D), SPRING(D)
 uncompressed_dataset_D, FM-index(D)
 
 DP_Base_time.txt
-t_compr_bzip2(D), 
+t_compr_bzip2(D), t_compr_lz4(D), t_compr_zstd(D), t_compr_bzip2(D), t_compr_bzip2(D)
 ```
 
 
