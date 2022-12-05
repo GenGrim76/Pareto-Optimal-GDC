@@ -64,7 +64,7 @@ For a quick start, assuming both **JVM**, **python** and **CMake** are properly 
 
 Execution of the above command returns a series of files in '.txt' format. For the **Base Case Scenario**, a special folder is created in which there are two folders: **CD-NRAM** and **SD-RAM**. In each of these there are two text files that respectively store the performance in terms of compression and post-processing time obtained by the various compressors (standard and specialised) on the k-mer dictionaries and on their relative frequencies, respectively for the "**Compressed on Disk - No Random Access in Main Memory**" and "**Succinct on Disk - Random Access in Main Memory**" Scenarios. For each value of k used in this study, a folder is created in which the results in terms of compression and post-processing time are similarly reported for each of the **DP0**, **DP1**, **DP2** and **DP3** Cases.
 
-### (PLEASE NOTE: see documentation on the [DP_format.md]([https://www.ncbi.nlm.nih.gov/nuccore/NC_010079.1?report=fasta](https://github.com/GenGrim76/Pareto-Optimal-GDC/blob/main/DP_format.md)) file 
+**PLEASE NOTE:** see documentation on the [DP_format.md](https://github.com/GenGrim76/Pareto-Optimal-GDC/blob/main/DP_format.md) file 
 
 
 ## Datasets
