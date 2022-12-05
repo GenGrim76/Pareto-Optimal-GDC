@@ -105,7 +105,7 @@ Execution of the above command returns a series of files in '.txt' format. For t
 
 ## Cite
 
-If you use this benchmark library in your own work, please cite us:
+If you use this benchmark library in your own work, please cite us: 
 
 ```
 @article{pareto-optimal-GDC-22,
