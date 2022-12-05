@@ -17,7 +17,7 @@ The **Pareto-Optimal-GDC** is a benchmark java library that can be readily used 
 
 - **jFreeChart** library: Java chart 100% open-source library that makes it easy for developers to display professional quality charts in their application, released under the terms of the GNU Lesser General Public Licence (LGPL) https://www.gnu.org/licenses/lgpl-3.0.html.
 
-  ### (PLEASE NOTE: see the `pom.xml` file for the relative repositories)
+  **PLEASE NOTE:** see the [`pom.xml`](https://github.com/GenGrim76/Pareto-Optimal-GDC/blob/main/pom.xml) file for the relative repositories.
 
 
 ## Additional Software used in this library
