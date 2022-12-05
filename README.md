@@ -25,13 +25,13 @@ The **Pareto-Optimal-GDC** java library runs over Linux/Ubuntu distros with java
 - **DSK**: k-mer counter for reads or genomes. [https://gatb.inria.fr/software/dsk/] [2]
 - **KMC3** disk-based program for counting k-mers from (possibly gzipped) FASTQ/FASTA files. [https://github.com/refresh-bio/KMC] [3]
 - **ESSCompress** A tool to compress a set of k-mers represented in FASTA/FASTQ/KFF file(s). [https://github.com/medvedevgroup/ESSCompress] [4]
-- **FM-index** (as implemented in the **SDSL-Lite** library)
-- **BCSF** (implemented in the **locom** library)
-- **bzip2**
-- **lz4**
-- **Zstandard** (**MFC**, for short)
-- **MFCompress** (**zstd**, for short)
-- **SPRING**
+- **FM-index** [5] (as implemented in the **SDSL-Lite** library [6])
+- **BCSF** (implemented in the **locom** library) [7]
+- **bzip2** [8]
+- **lz4** [9]
+- **Zstandard** (**MFC**, for short) [10]
+- **MFCompress** (**zstd**, for short) [11]
+- **SPRING** [12]
 - **BIC** (as implemented in the **JavaFastPFOR** library)
 - **Opt-PFOR** (as implemented in the **JavaFastPFOR** library)
 
@@ -54,6 +54,9 @@ where [input_parameters] as reported below:
 
 
 ## Quickstart
+
+### (PLEASE NOTE: Depending on the size of the input genomic dataset, in addition to consuming a lot of time, use of the library requires a lot of disk space for the creation of temporary files, even on the order of several TB, as in the case of Assembled Plants Genome. )
+
 For a quick start, assuming both **JVM**, **python** and **CMake** are properly installed on your system, unzip the Pareto-Optimal-GDC 1.0 release, move on the directory `/bin`, and run the following command:
 
 `java -jar Pareto-Optimal-GDC.jar ../data StaphAU ../experiments 1`
@@ -79,6 +82,22 @@ Execution of the above command returns a series of files in '.txt' format. For t
 [3]:  Marek Kokot, Maciej Długosz, Sebastian Deorowicz, KMC 3: counting and manipulating k-mer statistics, Bioinformatics, Volume 33, Issue 17, 01 September 2017, Pages 2759–2761, https://doi.org/10.1093/bioinformatics/btx304 .
 
 [4]: Amatur Rahman, Rayan Chikhi and Paul Medvedev, Disk compression of k-mer sets, WABI 2020 .
+
+[5]: Ferragina, Paolo, and Giovanni Manzini. "Indexing compressed text." Journal of the ACM (JACM) 52.4 (2005): 552-581.
+
+[6]: 
+
+[7]:
+
+[8]:
+
+[9]:
+
+[10]:
+
+[11]:
+
+[12]:
 
 [XXXXXXXXXXXXXXXXX]:
 
