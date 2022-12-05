@@ -4,9 +4,12 @@
 ***Base Case Scenario***
 
 ```
-`DP_Base_size.txt`
-1.c,2.c,3.c,4.c,5.c - 6.c,6.d
-1.d,2.d,3.d,4.d,5.d
+DP_Base_size.txt
+uncompressed_dataset_D, bzip2(D), lz4(D), zstd(D), MFC(D), SPRING(D)
+uncompressed_dataset_D, FM-index(D)
+
+DP_Base_time.txt
+t_compr_bzip2(D), 
 ```
 
 
