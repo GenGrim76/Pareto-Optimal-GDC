@@ -111,7 +111,7 @@ If you use this benchmark library in your own work, please cite us:
 ```
 @article{pareto-optimal-GDC-22,
   author    = {Raffaele Giancarlo and
-               Gennaro Grimaudo },
+               Gennaro Grimaudo},
   title     = {Pareto Optimal Compression of Genomic Dictionaries, with or without Random Access in Main Memory},
   journal   = {arXiv pre-print Document},
   volume    = {XX},
