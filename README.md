@@ -105,9 +105,16 @@ Execution of the above command returns a series of files in '.txt' format. For t
 
 ## Cite
 
-dfgergvrt
-grtgrtwgrtw
-gwrtg
-rtwgrwt
-w
-g
+If you use this benchmark library in your own work, please cite us:
+
+```
+@article{pareto-optimal-GDC-22,
+  author    = {Raffaele Giancarlo and
+               Gennaro Grimaudo },
+  title     = {Pareto Optimal  Compression of Genomic Dictionaries ]{Pareto Optimal Compression of Genomic Dictionaries, with or without Random Access in Main Memory},
+  journal   = {arXiv pre-print Document},
+  volume    = {XX},
+  number    = {Y},
+  pages     = {1--9},
+  year      = {2022}
+}
