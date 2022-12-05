@@ -17,7 +17,7 @@ The **Pareto-Optimal-GDC** is a benchmark java library that can be readily used 
 
 - **jFreeChart** library: Java chart 100% open-source library that makes it easy for developers to display professional quality charts in their application, released under the terms of the GNU Lesser General Public Licence (LGPL) https://www.gnu.org/licenses/lgpl-3.0.html.
 
-  ### (PLEASE NOTE: see the pom.xml file for the relative repositories)
+  ### (PLEASE NOTE: see the `pom.xml` file for the relative repositories)
 
 
 ## Additional Software used in this library
@@ -64,6 +64,7 @@ For a quick start, assuming both **JVM**, **python** and **CMake** are properly 
 
 Execution of the above command returns a series of files in '.txt' format. For the **Base Case Scenario**, a special folder is created in which there are two folders: **CD-NRAM** and **SD-RAM**. In each of these there are two text files that respectively store the performance in terms of compression and post-processing time obtained by the various compressors (standard and specialised) on the k-mer dictionaries and on their relative frequencies, respectively for the "**Compressed on Disk - No Random Access in Main Memory**" and "**Succinct on Disk - Random Access in Main Memory**" Scenarios. For each value of k used in this study, a folder is created in which the results in terms of compression and post-processing time are similarly reported for each of the **DP0**, **DP1**, **DP2** and **DP3** Cases.
 
+### (PLEASE NOTE: see DP_format.md `DP_format.md` documentation)
 
 
 ## Datasets
