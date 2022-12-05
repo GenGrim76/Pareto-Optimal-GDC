@@ -1,5 +1,5 @@
 ## DP output files Documentation
-**PLEASE NOTE:** All results related to compression are expressed in [bytes], while those related to post-processing time are expressed in [ms].
+**PLEASE NOTE:** All data related to compression are expressed in [bytes], while those related to post-processing time are expressed in [ms].
 
 
 ***AAA***
