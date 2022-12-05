@@ -55,7 +55,7 @@ where [input_parameters] as reported below:
 
 ## Quickstart
 
-### (PLEASE NOTE: Depending on the size of the input genomic dataset, in addition to consuming a lot of time, use of the library requires a lot of disk space for the creation of temporary files, even on the order of several TB, as in the case of Assembled Plants Genome. )
+**PLEASE NOTE:** Depending on the size of the input genomic dataset, in addition to consuming a lot of time, use of the library requires a lot of disk space for the creation of temporary files, even on the order of several TB, as in the case of Assembled Plants Genome.
 
 For a quick start, assuming both **JVM**, **python** and **CMake** are properly installed on your system, unzip the Pareto-Optimal-GDC 1.0 release, move on the directory `/bin`, and run the following command:
 
