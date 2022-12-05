@@ -85,7 +85,7 @@ Execution of the above command returns a series of files in '.txt' format. For t
 
 [5]: Ferragina, Paolo, and Giovanni Manzini. "Indexing compressed text." Journal of the ACM (JACM) 52.4 (2005): 552-581.
 
-[6]: 
+[6]: Simon Gog, Timo Beller, Alistair Moffat, and Matthias Petri. SDSL-lite: Succinct Data Structure Library,2016. https://github.com/simongog/sdsl-lite) .
 
 [7]:
 
