@@ -4,9 +4,9 @@
 
 The **Pareto-Optimal-GDC** java library runs over Linux/Ubuntu distros with java 11 pre-installed. It released under the terms of the GNU General Public License v3.0 (see *LICENSE.md*). It requires a *Java* compliant Virtual Machine (1.8+).  It integrates libraries written in C++ and python, which is why the following pre-installed environments are required: 
 
-- **python** 3.7+
-- **CMake** 3.25+
-- **gcc** 11.0+
+- **python** (3.7+)
+- **CMake** (3.25+)
+- **gcc** (11.0+)
 
 
 ## Library Dependencies
