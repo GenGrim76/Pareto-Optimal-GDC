@@ -1,5 +1,6 @@
 ## DP output files Documentation
-(da documentare per spiegare cosa ci sta all'interno dei vari files)
+**PLEASE NOTE:** All results related to compression are expressed in [bytes], while those related to post-processing time are expressed in [ms].
+
 
 ***AAA***
 ```
