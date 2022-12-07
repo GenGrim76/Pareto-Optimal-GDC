@@ -118,6 +118,6 @@ If you use this benchmark library in your own work, please cite us:
   number    = {Y},
   pages     = {1--13},
   year      = {2022}, 
-  doi       = {https://doi.org/10.48550/arXiv.2212.03067}
+  doi       = {10.48550/arXiv.2212.03067}
 }
 ```
