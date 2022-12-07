@@ -116,7 +116,8 @@ If you use this benchmark library in your own work, please cite us:
   journal   = {arXiv pre-print Document},
   volume    = {XX},
   number    = {Y},
-  pages     = {1--9},
-  year      = {2022}
+  pages     = {1--13},
+  year      = {2022}, 
+  doi       = {https://doi.org/10.48550/arXiv.2212.03067}
 }
 ```
