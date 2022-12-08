@@ -1,6 +1,15 @@
 ## DP output files Documentation
 
-**PLEASE NOTE:** Assume `D` the genomic input dataset. We assume `DSK_Dict` the Dictionary obtained from DSK in the (`di` `fi`) format, where `di` is a canonical k-mer present in D, and `fi` is the relative frequency. DSK We assume `Dk` to be the dictionary of k-mers obtained from DSK, and `Fk` the dictionary of relative frequencies. We assume S the Spectrum Preserving String Set obtained from ESScompress. All data related to compression are expressed in [bytes], while those related to post-processing time are expressed in [ms]. For the convenience of the reader, we indicate the progressive line number.
+**PLEASE NOTE:** 
+Assume the following: 
+- `D` is the genomic input dataset 
+- `DSK_Dict` is the dictionary obtained from DSK in the (`di` `fi`) format, where `di` is a canonical k-mer present in D, and `fi` is the relative frequency
+- `Dk` is the dictionary of k-mers obtained from DSK
+- 'Fk` is the dictionary of relative frequencies of 'di' in 'Dk'.
+- 'S' is the Spectrum Preserving String Set obtained from ESScompress. 
+ 
+All data related to compression are expressed in [bytes], while those related to post-processing time are expressed in [ms]. For the convenience of the reader, we indicate the progressive line number.
+
 
 ***Base Case Scenario***
 
