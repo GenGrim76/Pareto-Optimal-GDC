@@ -6,8 +6,8 @@ Assume the following:
 - `D` is the genomic input dataset 
 - `DSK_Dict` is the dictionary obtained from DSK in the (`di` `fi`) format, where `di` is a canonical k-mer present in D, and `fi` is the relative frequency
 - `Dk` is the dictionary of k-mers obtained from DSK
-- 'Fk` is the dictionary of relative frequencies of 'di' in 'Dk'.
-- 'S' is the Spectrum Preserving String Set obtained from ESScompress. 
+- `Fk` is the dictionary of relative frequencies of 'di' in 'Dk'.
+- `S` is the Spectrum Preserving String Set obtained from ESScompress. 
  
 All data related to compression are expressed in [bytes], while those related to post-processing time are expressed in [ms]. For the convenience of the reader, we indicate the progressive line number.
 
