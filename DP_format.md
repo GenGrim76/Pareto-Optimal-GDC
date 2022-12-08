@@ -1,6 +1,7 @@
 ## DP output files Documentation
 
 **PLEASE NOTE:** 
+
 Assume the following: 
 - `D` is the genomic input dataset 
 - `DSK_Dict` is the dictionary obtained from DSK in the (`di` `fi`) format, where `di` is a canonical k-mer present in D, and `fi` is the relative frequency
