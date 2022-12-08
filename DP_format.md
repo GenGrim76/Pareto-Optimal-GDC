@@ -16,9 +16,22 @@ DP_Base_time.txt
 4: t_decompr_FM-index(D)
 ```
 
+When we are in the exact solution case, we consider the following:
 
 ***SD-RAM Scenario***
 
+```
+DP3_k[x]-size-SD_RAM.txt
+1: uncompressed_S, FM-index(S)
+
+
+DP3_k[x]-time-SD_RAM.txt
+1: t_compr_FM-index(S)
+2: t_decompr_FM-index(S)
+3: t_recovery(Dk) from S
+4: t_prepare(Dk) for recovery Fk
+5: t_recovery(Fk)
+```
 
 
 
@@ -67,7 +80,29 @@ DP3_k[x]-size-CD_NRAM.txt
 
 
 DP3_k[x]-time-CD_NRAM.txt
+1: DSK
+2: ESSCompress
+3: F'k Bijection
+4: t_compr_bzip2(Fk), t_compr_lz4(Fk), t_compr_zstd(Fk), t_compr_BIC(Fk), t_compr_Opt-PFOR(Fk)
+5: t_decompr_bzip2(Fk), t_decompr_lz4(Fk), t_decompr_zstd(Fk), t_decompr_BIC(Fk), t_decompr_Opt-PFOR(Fk) 
+6: Fk to Gk
+7: t_compr_bzip2(Gk), t_compr_lz4(Gk), t_compr_zstd(Gk), t_compr_BIC(Gk), t_compr_Opt-PFOR(Gk)
+8: t_decompr_bzip2(Gk), t_decompr_lz4(Gk), t_decompr_zstd(Gk), t_decompr_BIC(Gk), t_decompr_Opt-PFOR(Gk) 
+9: Gk to Fk
+10: D'k Bijection  
+11: t_compr_bzip2(S), t_compr_lz4(S), t_compr_zstd(S), t_compr_MFC(S), t_compr_SPRING(S)
+12: t_decompr_bzip2(S), t_decompr_lz4(S), t_decompr_zstd(S), t_decompr_MFC(S), t_decompr_SPRING(S)
 
+```
 
+When we are in the approximate solution case, we consider the following DP3 subcases:
+
+***CD-NRAM Scenario***
+```
+
+```
+
+***SD-RAM Scenario***
+```
 
 ```
