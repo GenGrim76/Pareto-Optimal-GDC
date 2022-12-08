@@ -25,12 +25,12 @@ t_decompr_FM-index(D)
 ***CD-NRAM Scenario***
 
 ```
-DP[0/1/2]_k[x]-size.txt
+DP0_k[x]-size.txt
 uncompressed_Dk, bzip2(Dk), lz4(Dk), zstd(Dk), MFC(Dk), SPRING(Dk) - uncompressed_Dk, FM-index(Dk)
 uncompressed_Fk, bzip2(Fk), lz4(Fk), zstd(Fk), BIC(Fk), Opt-PFOR(Fk) - uncompressed(DSK_Dict), BCSF(DSK_Dict), bzip2(BCSF(DSK_Dict)), lz4(BCSF(DSK_Dict)), zstd(BCSF(DSK_Dict))
 uncompressed_Gk, bzip2(Gk), lz4(Gk), zstd(Gk), BIC(Gk), Opt-PFOR(Gk) 
 
-DP[0/1/2]_k[x]-time.txt
+DP0_k[x]-time.txt
 DSK
 DSK to {Dk, Fk}
 t_compr_bzip2(Dk), t_compr_lz4(Dk), t_compr_zstd(Dk), t_compr_MFC(Dk), t_compr_SPRING(Dk) - t_compr_FM-index(Dk)
@@ -41,4 +41,31 @@ Fk to Gk
 t_compr_bzip2(Gk), t_compr_lz4(Gk), t_compr_zstd(Gk), t_compr_BIC(Gk), t_compr_Opt-PFOR(Gk)
 t_decompr_bzip2(Gk), t_decompr_lz4(Gk), t_decompr_zstd(Gk), t_decompr_BIC(Gk), t_decompr_Opt-PFOR(Gk)
 Gk to Fk
+
+DP[1/2]_k[x]-size.txt
+uncompressed_Dk, bzip2(Dk), lz4(Dk), zstd(Dk), MFC(Dk), SPRING(Dk) - uncompressed_Dk, FM-index(Dk)
+uncompressed_Fk, bzip2(Fk), lz4(Fk), zstd(Fk), BIC(Fk), Opt-PFOR(Fk)
+uncompressed_Gk, bzip2(Gk), lz4(Gk), zstd(Gk), BIC(Gk), Opt-PFOR(Gk) 
+
+DP[1/2]_k[x]-time.txt
+DSK
+DSK to {Dk, Fk}
+t_compr_bzip2(Dk), t_compr_lz4(Dk), t_compr_zstd(Dk), t_compr_MFC(Dk), t_compr_SPRING(Dk) - t_compr_FM-index(Dk)
+t_decompr_bzip2(Dk), t_decompr_lz4(Dk), t_decompr_zstd(Dk), t_decompr_MFC(Dk), t_decompr_SPRING(Dk) - t_decompr_FM-index(Dk)
+t_compr_bzip2(Fk), t_compr_lz4(Fk), t_compr_zstd(Fk), t_compr_BIC(Fk), t_compr_Opt-PFOR(Fk)
+t_decompr_bzip2(Fk), t_decompr_lz4(Fk), t_decompr_zstd(Fk), t_decompr_BIC(Fk), t_decompr_Opt-PFOR(Fk)
+Fk to Gk
+t_compr_bzip2(Gk), t_compr_lz4(Gk), t_compr_zstd(Gk), t_compr_BIC(Gk), t_compr_Opt-PFOR(Gk)
+t_decompr_bzip2(Gk), t_decompr_lz4(Gk), t_decompr_zstd(Gk), t_decompr_BIC(Gk), t_decompr_Opt-PFOR(Gk)
+Gk to Fk
+
+
+DP3_k[x]-size-CD_NRAM.txt
+
+
+
+DP3_k[x]-time-CD_NRAM.txt
+
+
+
 ```
