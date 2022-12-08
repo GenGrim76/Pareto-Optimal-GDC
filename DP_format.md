@@ -1,6 +1,6 @@
 ## DP output files Documentation
 
-**PLEASE NOTE:** Assume `D` the genomic input dataset. We assume `DSK_Dict` the Dictionary obtained from DSK in the (`di` `fi`) format, where `di` is a canonical k-mer present in D, and `fi` is the relative frequency. DSK We assume `Dk` to be the dictionary of k-mers obtained from DSK, and `Fk` the dictionary of relative frequencies. All data related to compression are expressed in [bytes], while those related to post-processing time are expressed in [ms]. For the convenience of the reader, we indicate the progressive line number.
+**PLEASE NOTE:** Assume `D` the genomic input dataset. We assume `DSK_Dict` the Dictionary obtained from DSK in the (`di` `fi`) format, where `di` is a canonical k-mer present in D, and `fi` is the relative frequency. DSK We assume `Dk` to be the dictionary of k-mers obtained from DSK, and `Fk` the dictionary of relative frequencies. We assume S the Spectrum Preserving String Set obtained from ESScompress. All data related to compression are expressed in [bytes], while those related to post-processing time are expressed in [ms]. For the convenience of the reader, we indicate the progressive line number.
 
 ***Base Case Scenario***
 
@@ -30,7 +30,7 @@ DP3_k[x]-time-SD_RAM.txt
 2: t_decompr_FM-index(S)
 3: t_recovery(Dk) from S
 4: t_prepare(Dk) for recovery Fk
-5: t_recovery(Fk)
+5: t_recovery(Fk) from Dk and BCSF
 ```
 
 
@@ -95,14 +95,30 @@ DP3_k[x]-time-CD_NRAM.txt
 
 ```
 
-When we are in the approximate solution case, we consider the following DP3 subcases:
+When we are in the approximate solution case, we consider, together with the above, the following DP3 subcases:
 
 ***CD-NRAM Scenario***
 ```
-
+DP3_k[x]-time-CD_NRAM.txt
+1: Approximate Solution
+2: t_compr_bzip2(Fk), t_compr_lz4(Fk), t_compr_zstd(Fk), t_compr_BIC(Fk), t_compr_Opt-PFOR(Fk)
+3: t_decompr_bzip2(Fk), t_decompr_lz4(Fk), t_decompr_zstd(Fk), t_decompr_BIC(Fk), t_decompr_Opt-PFOR(Fk) 
+4: Fk to Gk
+5: t_compr_bzip2(Gk), t_compr_lz4(Gk), t_compr_zstd(Gk), t_compr_BIC(Gk), t_compr_Opt-PFOR(Gk)
+6: t_decompr_bzip2(Gk), t_decompr_lz4(Gk), t_decompr_zstd(Gk), t_decompr_BIC(Gk), t_decompr_Opt-PFOR(Gk) 
+7: Gk to Fk
+8: t_compr_bzip2(S), t_compr_lz4(S), tcompr_zstd(S), t_compr_MFC(S), t_compr_SPRING(S)
+9: t_decompr_bzip2(S), t_decompr_lz4(S), t_decompr_zstd(S), t_decompr_MFC(S), t_decompr_SPRING(S)
+10: DSK
+11: ESSCompress
+12: F'k Bijection
+13: D'k Bijection
+14: Bijection Create Approximate Dictionary (Dk, Fk)
 ```
 
 ***SD-RAM Scenario***
 ```
-
+DP3_k[x]-time-SD_RAM.txt
+1: Approximate Solution
+2: 
 ```
