@@ -61,7 +61,9 @@ DP[1/2]_k[x]-time.txt
 
 
 DP3_k[x]-size-CD_NRAM.txt
-
+1: uncompressed_Fk, bzip2(Fk), lz4(Fk), zstd(Fk), BIC(Fk), Opt-PFOR(Fk)
+2: uncompressed_Gk, bzip2(Gk), lz4(Gk), zstd(Gk), BIC(Gk), Opt-PFOR(Gk)
+3: uncompressed_S, bzip2(S), lz4(S), zstd(S), MFC(S), SPRING(S)
 
 
 DP3_k[x]-time-CD_NRAM.txt
