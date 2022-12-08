@@ -120,5 +120,9 @@ DP3_k[x]-time-CD_NRAM.txt
 ```
 DP3_k[x]-time-SD_RAM.txt
 1: Approximate Solution
-2: 
+2: t_compr_FM-index(S)
+3: t_decompr_FM-index(S)
+3: t_recovery(Dk) from S
+4: t_prepare(Dk) for recovery Fk
+5: t_recovery(Fk) from Dk and BCSF
 ```
