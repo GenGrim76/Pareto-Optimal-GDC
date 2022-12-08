@@ -25,10 +25,10 @@ DP_Base_time.txt
 ***CD-NRAM Scenario***
 
 ```
-1: DP0_k[x]-size.txt
-2: uncompressed_Dk, bzip2(Dk), lz4(Dk), zstd(Dk), MFC(Dk), SPRING(Dk) - uncompressed_Dk, FM-index(Dk)
-3: uncompressed_Fk, bzip2(Fk), lz4(Fk), zstd(Fk), BIC(Fk), Opt-PFOR(Fk) - uncompressed(DSK_Dict), BCSF(DSK_Dict), bzip2(BCSF(DSK_Dict)), lz4(BCSF(DSK_Dict)), zstd(BCSF(DSK_Dict))
-4: uncompressed_Gk, bzip2(Gk), lz4(Gk), zstd(Gk), BIC(Gk), Opt-PFOR(Gk) 
+DP0_k[x]-size.txt
+1: uncompressed_Dk, bzip2(Dk), lz4(Dk), zstd(Dk), MFC(Dk), SPRING(Dk) - uncompressed_Dk, FM-index(Dk)
+2: uncompressed_Fk, bzip2(Fk), lz4(Fk), zstd(Fk), BIC(Fk), Opt-PFOR(Fk) - uncompressed(DSK_Dict), BCSF(DSK_Dict), bzip2(BCSF(DSK_Dict)), lz4(BCSF(DSK_Dict)), zstd(BCSF(DSK_Dict))
+3: uncompressed_Gk, bzip2(Gk), lz4(Gk), zstd(Gk), BIC(Gk), Opt-PFOR(Gk) 
 
 DP0_k[x]-time.txt
 1: DSK
