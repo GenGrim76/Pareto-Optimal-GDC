@@ -109,15 +109,14 @@ Execution of the above command returns a series of files in '.txt' format. For t
 If you use this benchmark library in your own work, please cite us: 
 
 ```
-@article{pareto-optimal-GDC-22,
-  author    = {Raffaele Giancarlo and
-               Gennaro Grimaudo},
-  title     = {Pareto Optimal Compression of Genomic Dictionaries, with or without Random Access in Main Memory},
-  journal   = {arXiv pre-print Document},
-  volume    = {XX},
-  number    = {Y},
-  pages     = {1--13},
-  year      = {2022}, 
-  doi       = {10.48550/arXiv.2212.03067}
+@misc{Pareto-Optimal-GDC-2022,
+  doi = {10.48550/ARXIV.2212.03067},
+  url = {https://arxiv.org/abs/2212.03067},
+  author = {Giancarlo, Raffaele and Grimaudo, Gennaro},
+  keywords = {Data Structures and Algorithms (cs.DS), Genomics (q-bio.GN), FOS: Computer and information sciences, FOS: Computer and information sciences, FOS: Biological sciences, FOS: Biological sciences},
+  title = {Pareto Optimal Compression of Genomic Dictionaries, with or without Random Access in Main Memory},
+  publisher = {arXiv},
+  year = {2022},
+  copyright = {Creative Commons Attribution Share Alike 4.0 International}
 }
 ```
