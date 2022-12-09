@@ -16,14 +16,14 @@ All data related to compression are expressed in [bytes], while those related to
 
 ```
 DP_Base_size.txt
-1: uncompressed_`D`, bzip2(`D`), lz4(`D`), zstd(`D`), MFC(`D`), SPRING(`D`)
-2: uncompressed_`D`, FM-index(`D`)
+1: uncompressed_D, bzip2(D), lz4(D), zstd(D), MFC(D), SPRING(D)
+2: uncompressed_D, FM-index(D)
 
 DP_Base_time.txt
-1: t_compr_bzip2(`D`), t_compr_lz4(`D`), t_compr_zstd(`D`), t_compr_MFC(`D`), t_compr_SPRING(`D`)
-2: t_decompr_bzip2(`D`), t_decompr_lz4(`D`), t_decompr_zstd(`D`), t_decompr_MFC(`D`), t_decompr_SPRING(`D`)
-3: t_compr_FM-index(`D`)
-4: t_decompr_FM-index(`D`)
+1: t_compr_bzip2(D), t_compr_lz4(D), t_compr_zstd(D), t_compr_MFC(D), t_compr_SPRING(D)
+2: t_decompr_bzip2(D), t_decompr_lz4(D), t_decompr_zstd(D), t_decompr_MFC(D), t_decompr_SPRING(D)
+3: t_compr_FM-index(D)
+4: t_decompr_FM-index(D)
 ```
 
 When we are in the exact solution case, we consider the following:
@@ -32,7 +32,7 @@ When we are in the exact solution case, we consider the following:
 
 ```
 DP3_k[x]-size-SD_RAM.txt
-1: uncompressed_`S`, FM-index(`S`)
+1: uncompressed_S, FM-index(S)
 
 
 DP3_k[x]-time-SD_RAM.txt
