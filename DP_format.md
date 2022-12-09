@@ -26,7 +26,7 @@ DP_Base_time.txt
 4: t_decompr_FM-index(D)
 ```
 
-When we are in the exact solution case, we consider the following:
+When we are in the Exact Solution case, we consider the following:
 
 ***SD-RAM Scenario***
 
@@ -105,7 +105,7 @@ DP3_k[x]-time-CD_NRAM.txt
 
 ```
 
-When we are in the approximate solution case, we consider, together with the above, the following DP3 subcases:
+When we are in the Approximate Solution case, we consider, together with the above, the following DP3 sub-cases:
 
 ***CD-NRAM Scenario***
 ```
