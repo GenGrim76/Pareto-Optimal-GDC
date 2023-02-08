@@ -1,4 +1,4 @@
-# :chart_with_downwards_trend: Pareto-Optimal-GDC: Pareto Optimal Genomic Dictionaries Compression
+# Pareto-Optimal-GDC: Pareto Optimal Genomic Dictionaries Compression
 
 ## Environment
 
